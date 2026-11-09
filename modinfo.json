@@ -1,0 +1,17 @@
+{
+  "type": "code",
+  "modid": "ltohodwatercompat",
+  "name": "LTO 5.0.0 - HoD Water Compatibility (Unofficial Test)",
+  "version": "0.2.0",
+  "authors": ["ChatGPT-generated experimental patch"],
+  "description": "Experimental server-side Harmony postfix for LTOLibPlus 5.0.0's plain-water validator, accepting waterportion and waterportion-* liquid items from other mod namespaces. Original mods untouched.",
+  "side": "Server",
+  "requiredOnClient": false,
+  "requiredOnServer": true,
+  "dependencies": {
+    "game": "1.22.7",
+    "ltolibplus": "5.0.0",
+    "ltofarmingplus": "5.0.0",
+    "hydrateordiedrate": "2.5.8"
+  }
+}
