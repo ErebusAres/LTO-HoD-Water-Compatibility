@@ -1,0 +1,10 @@
+# Prevent diffing compiled releases
+*.dll binary
+*.zip binary
+
+# Normalize source text files
+*.cs text eol=lf
+*.csproj text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.ps1 text eol=crlf
