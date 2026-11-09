@@ -1,0 +1,16 @@
+# .NET build outputs
+bin/
+obj/
+package/
+*.user
+*.suo
+.vs/
+
+# Local build output (distributed test ZIP is intentionally kept in dist/)
+/LtoHodWaterCompat_0.2.0-TEST.zip
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
